@@ -19,6 +19,7 @@
 		571F611E19C4DA9900119B3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571F610619C4DA9900119B3A /* UIKit.framework */; };
 		571F612619C4DA9900119B3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 571F612419C4DA9900119B3A /* InfoPlist.strings */; };
 		571F612819C4DA9900119B3A /* HackForGoodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 571F612719C4DA9900119B3A /* HackForGoodTests.m */; };
+		571F613319C4DAED00119B3A /* HFGWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 571F613219C4DAED00119B3A /* HFGWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		571F612319C4DA9900119B3A /* HackForGoodTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HackForGoodTests-Info.plist"; sourceTree = "<group>"; };
 		571F612519C4DA9900119B3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		571F612719C4DA9900119B3A /* HackForGoodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackForGoodTests.m; sourceTree = "<group>"; };
+		571F613119C4DAED00119B3A /* HFGWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFGWebViewController.h; sourceTree = "<group>"; };
+		571F613219C4DAED00119B3A /* HFGWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFGWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				571F611219C4DA9900119B3A /* HFGAppDelegate.m */,
 				571F611419C4DA9900119B3A /* Images.xcassets */,
 				571F610919C4DA9900119B3A /* Supporting Files */,
+				571F613119C4DAED00119B3A /* HFGWebViewController.h */,
+				571F613219C4DAED00119B3A /* HFGWebViewController.m */,
 			);
 			path = HackForGood;
 			sourceTree = "<group>";
@@ -240,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				571F613319C4DAED00119B3A /* HFGWebViewController.m in Sources */,
 				571F611319C4DA9900119B3A /* HFGAppDelegate.m in Sources */,
 				571F610F19C4DA9900119B3A /* main.m in Sources */,
 			);
