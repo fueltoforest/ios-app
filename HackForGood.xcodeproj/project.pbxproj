@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		571F610319C4DA9900119B3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571F610219C4DA9900119B3A /* Foundation.framework */; };
+		571F610519C4DA9900119B3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571F610419C4DA9900119B3A /* CoreGraphics.framework */; };
+		571F610719C4DA9900119B3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571F610619C4DA9900119B3A /* UIKit.framework */; };
+		571F610D19C4DA9900119B3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 571F610B19C4DA9900119B3A /* InfoPlist.strings */; };
+		571F610F19C4DA9900119B3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 571F610E19C4DA9900119B3A /* main.m */; };
+		571F611319C4DA9900119B3A /* HFGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 571F611219C4DA9900119B3A /* HFGAppDelegate.m */; };
+		571F611519C4DA9900119B3A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 571F611419C4DA9900119B3A /* Images.xcassets */; };
+		571F611C19C4DA9900119B3A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571F611B19C4DA9900119B3A /* XCTest.framework */; };
+		571F611D19C4DA9900119B3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571F610219C4DA9900119B3A /* Foundation.framework */; };
+		571F611E19C4DA9900119B3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571F610619C4DA9900119B3A /* UIKit.framework */; };
+		571F612619C4DA9900119B3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 571F612419C4DA9900119B3A /* InfoPlist.strings */; };
+		571F612819C4DA9900119B3A /* HackForGoodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 571F612719C4DA9900119B3A /* HackForGoodTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		571F611F19C4DA9900119B3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 571F60F719C4DA9900119B3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 571F60FE19C4DA9900119B3A;
+			remoteInfo = HackForGood;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		571F60FF19C4DA9900119B3A /* HackForGood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackForGood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		571F610219C4DA9900119B3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		571F610419C4DA9900119B3A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		571F610619C4DA9900119B3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		571F610A19C4DA9900119B3A /* HackForGood-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HackForGood-Info.plist"; sourceTree = "<group>"; };
+		571F610C19C4DA9900119B3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		571F610E19C4DA9900119B3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		571F611019C4DA9900119B3A /* HackForGood-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HackForGood-Prefix.pch"; sourceTree = "<group>"; };
+		571F611119C4DA9900119B3A /* HFGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFGAppDelegate.h; sourceTree = "<group>"; };
+		571F611219C4DA9900119B3A /* HFGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFGAppDelegate.m; sourceTree = "<group>"; };
+		571F611419C4DA9900119B3A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		571F611A19C4DA9900119B3A /* HackForGoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackForGoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		571F611B19C4DA9900119B3A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		571F612319C4DA9900119B3A /* HackForGoodTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HackForGoodTests-Info.plist"; sourceTree = "<group>"; };
+		571F612519C4DA9900119B3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		571F612719C4DA9900119B3A /* HackForGoodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackForGoodTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		571F60FC19C4DA9900119B3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571F610519C4DA9900119B3A /* CoreGraphics.framework in Frameworks */,
+				571F610719C4DA9900119B3A /* UIKit.framework in Frameworks */,
+				571F610319C4DA9900119B3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571F611719C4DA9900119B3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571F611C19C4DA9900119B3A /* XCTest.framework in Frameworks */,
+				571F611E19C4DA9900119B3A /* UIKit.framework in Frameworks */,
+				571F611D19C4DA9900119B3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		571F60F619C4DA9900119B3A = {
+			isa = PBXGroup;
+			children = (
+				571F610819C4DA9900119B3A /* HackForGood */,
+				571F612119C4DA9900119B3A /* HackForGoodTests */,
+				571F610119C4DA9900119B3A /* Frameworks */,
+				571F610019C4DA9900119B3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		571F610019C4DA9900119B3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				571F60FF19C4DA9900119B3A /* HackForGood.app */,
+				571F611A19C4DA9900119B3A /* HackForGoodTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		571F610119C4DA9900119B3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				571F610219C4DA9900119B3A /* Foundation.framework */,
+				571F610419C4DA9900119B3A /* CoreGraphics.framework */,
+				571F610619C4DA9900119B3A /* UIKit.framework */,
+				571F611B19C4DA9900119B3A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		571F610819C4DA9900119B3A /* HackForGood */ = {
+			isa = PBXGroup;
+			children = (
+				571F611119C4DA9900119B3A /* HFGAppDelegate.h */,
+				571F611219C4DA9900119B3A /* HFGAppDelegate.m */,
+				571F611419C4DA9900119B3A /* Images.xcassets */,
+				571F610919C4DA9900119B3A /* Supporting Files */,
+			);
+			path = HackForGood;
+			sourceTree = "<group>";
+		};
+		571F610919C4DA9900119B3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				571F610A19C4DA9900119B3A /* HackForGood-Info.plist */,
+				571F610B19C4DA9900119B3A /* InfoPlist.strings */,
+				571F610E19C4DA9900119B3A /* main.m */,
+				571F611019C4DA9900119B3A /* HackForGood-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		571F612119C4DA9900119B3A /* HackForGoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				571F612719C4DA9900119B3A /* HackForGoodTests.m */,
+				571F612219C4DA9900119B3A /* Supporting Files */,
+			);
+			path = HackForGoodTests;
+			sourceTree = "<group>";
+		};
+		571F612219C4DA9900119B3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				571F612319C4DA9900119B3A /* HackForGoodTests-Info.plist */,
+				571F612419C4DA9900119B3A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		571F60FE19C4DA9900119B3A /* HackForGood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 571F612B19C4DA9900119B3A /* Build configuration list for PBXNativeTarget "HackForGood" */;
+			buildPhases = (
+				571F60FB19C4DA9900119B3A /* Sources */,
+				571F60FC19C4DA9900119B3A /* Frameworks */,
+				571F60FD19C4DA9900119B3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackForGood;
+			productName = HackForGood;
+			productReference = 571F60FF19C4DA9900119B3A /* HackForGood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		571F611919C4DA9900119B3A /* HackForGoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 571F612E19C4DA9900119B3A /* Build configuration list for PBXNativeTarget "HackForGoodTests" */;
+			buildPhases = (
+				571F611619C4DA9900119B3A /* Sources */,
+				571F611719C4DA9900119B3A /* Frameworks */,
+				571F611819C4DA9900119B3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				571F612019C4DA9900119B3A /* PBXTargetDependency */,
+			);
+			name = HackForGoodTests;
+			productName = HackForGoodTests;
+			productReference = 571F611A19C4DA9900119B3A /* HackForGoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		571F60F719C4DA9900119B3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HFG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ahmet Karalar";
+				TargetAttributes = {
+					571F611919C4DA9900119B3A = {
+						TestTargetID = 571F60FE19C4DA9900119B3A;
+					};
+				};
+			};
+			buildConfigurationList = 571F60FA19C4DA9900119B3A /* Build configuration list for PBXProject "HackForGood" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 571F60F619C4DA9900119B3A;
+			productRefGroup = 571F610019C4DA9900119B3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				571F60FE19C4DA9900119B3A /* HackForGood */,
+				571F611919C4DA9900119B3A /* HackForGoodTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		571F60FD19C4DA9900119B3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571F610D19C4DA9900119B3A /* InfoPlist.strings in Resources */,
+				571F611519C4DA9900119B3A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571F611819C4DA9900119B3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571F612619C4DA9900119B3A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		571F60FB19C4DA9900119B3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571F611319C4DA9900119B3A /* HFGAppDelegate.m in Sources */,
+				571F610F19C4DA9900119B3A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571F611619C4DA9900119B3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571F612819C4DA9900119B3A /* HackForGoodTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		571F612019C4DA9900119B3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 571F60FE19C4DA9900119B3A /* HackForGood */;
+			targetProxy = 571F611F19C4DA9900119B3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		571F610B19C4DA9900119B3A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				571F610C19C4DA9900119B3A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		571F612419C4DA9900119B3A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				571F612519C4DA9900119B3A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		571F612919C4DA9900119B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		571F612A19C4DA9900119B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		571F612C19C4DA9900119B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HackForGood/HackForGood-Prefix.pch";
+				INFOPLIST_FILE = "HackForGood/HackForGood-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		571F612D19C4DA9900119B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HackForGood/HackForGood-Prefix.pch";
+				INFOPLIST_FILE = "HackForGood/HackForGood-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		571F612F19C4DA9900119B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HackForGood.app/HackForGood";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HackForGood/HackForGood-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HackForGoodTests/HackForGoodTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		571F613019C4DA9900119B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HackForGood.app/HackForGood";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HackForGood/HackForGood-Prefix.pch";
+				INFOPLIST_FILE = "HackForGoodTests/HackForGoodTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		571F60FA19C4DA9900119B3A /* Build configuration list for PBXProject "HackForGood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571F612919C4DA9900119B3A /* Debug */,
+				571F612A19C4DA9900119B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		571F612B19C4DA9900119B3A /* Build configuration list for PBXNativeTarget "HackForGood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571F612C19C4DA9900119B3A /* Debug */,
+				571F612D19C4DA9900119B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		571F612E19C4DA9900119B3A /* Build configuration list for PBXNativeTarget "HackForGoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571F612F19C4DA9900119B3A /* Debug */,
+				571F613019C4DA9900119B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 571F60F719C4DA9900119B3A /* Project object */;
+}
