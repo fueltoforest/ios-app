@@ -32,11 +32,10 @@ static NSString * const kRequestURL = @"http://www.apple.com";
 {
     [super viewDidLoad];
 
+    self.webView.frame = self.view.bounds;
     [self.view addSubview:_webView];
 
-    self.webView.frame = self.view.bounds;
     NSString *urlAddress = kRequestURL;
-
     NSURL *url = [NSURL URLWithString:urlAddress];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
 
