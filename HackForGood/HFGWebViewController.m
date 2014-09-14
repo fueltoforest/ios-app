@@ -8,7 +8,7 @@
 
 #import "HFGWebViewController.h"
 
-static NSString * const kRequestURL = @"http://www.apple.com";
+static NSString * const kRequestURL = @"http://fuel2forest.com/app";
 
 @interface HFGWebViewController ()
 
